@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign up</title>
+</head>
+<body>
+    <div class="main">
+        <div class="image-sidebar">
+            <div class="logo-band">
+                <img src="images/mountain-3631349_1920.jpg" alt="">
+                <span>Float</span>
+            </div>
+        </div>
+        <div class="form-section">
+            <form action="httpbin.org/" method="post">
+                <section class="info-section">
+                    <p>This is not a real service, but you wish it was. That's why you can (not) sign up here to live your dream now.</p>
+                    <p>What are <span class="emp">you</span> waiting for?</p>
+                </section>
+                <section class="input-section">
+                    <h1>Let's get started!</h1>
+                    <ul>
+                        <li>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                        </li>
+                        <li>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </li>
+                        <li>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" inputmode="numeric" id="phone_number" name="phone_number" optional>
+                        </li>
+                        <li>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </li>
+                        <li>
+                            <label for="password_confirm">Confirm Password</label>
+                            <input type="text" id="password_confirm" name="password_confirm" required>
+                        </li>
+                    </ul>
+                </section>
+                <section class="submit-section">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
