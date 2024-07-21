@@ -72,6 +72,11 @@ form[method=post] {
     padding: 0% 7%;
 }
 
+.input-section > h1 {
+    padding: 2% 0%;
+    color: grey;
+}
+
 .submit-section {
     height: 33%;
     padding: 0% 7%;
