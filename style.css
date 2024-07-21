@@ -59,10 +59,21 @@ form[method=post] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10%;
-    background-color: ghostwhite;
+    padding: 0% 7%;
+    background-color: #f9fafb;
 }
 
 .info-section > :first-child {
     margin-bottom: 2%;
+}
+
+.input-section {
+    height: 33%;
+    padding: 0% 7%;
+}
+
+.submit-section {
+    height: 33%;
+    padding: 0% 7%;
+    background-color: #f9fafb;
 }
