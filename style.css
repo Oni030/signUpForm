@@ -15,3 +15,9 @@ div.main {
     height: 100%;
     display: flex;
 }
+
+div.image-sidebar {
+    width: 35vw;
+    background-image: url("images/mountain-3631349_1920.jpg");
+    background-size: cover;
+}
