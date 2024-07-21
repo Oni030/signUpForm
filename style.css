@@ -17,7 +17,7 @@ div.main {
 }
 
 div.image-sidebar {
-    width: 35vw;
+    width: 35%;
     background-image: url("images/mountain-3631349_1920.jpg");
     background-size: cover;
 }
@@ -44,3 +44,4 @@ img.logo-icon {
     left: 42%;
     top: 63%;
 }
+
