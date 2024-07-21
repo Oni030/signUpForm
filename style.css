@@ -38,3 +38,9 @@ img.logo-icon {
     width: 10vh;
     margin-right: 2vh;
 }
+
+.icon-credit {
+    position: relative;
+    left: 42%;
+    top: 63%;
+}
