@@ -35,9 +35,9 @@
 }
 
 :root {
-    --green-clr: #123b16;
-    --white-clr: #ffffff;
-    --black-clr: #000000;
+    --green: #123b16;
+    --white: #ffffff;
+    --black: #000000;
     --slight-grey: #f9fafb;
     --light-grey: #dddddd;
     --grey: #5d5d5d;
@@ -75,7 +75,7 @@ div.logo-band {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--white);
     font-size: 7rem;
 }
 
@@ -156,14 +156,21 @@ button[type=submit] {
     margin: 4% 0%;
     width: 24%;
     height: 15%;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.6rem;
+    box-shadow: 4px 4px 2px var(--light-grey)
 }
 
 p > a {
     text-decoration: none;
+    color: var(--green);
 }
 
 p > a:visited {
-    color: green;
+    color: var(--green);
 }
 
 .unitea-reg {
