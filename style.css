@@ -1,6 +1,7 @@
 html, body {
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 
@@ -14,6 +15,7 @@ div.main {
     width: 100%;
     height: 100%;
     display: flex;
+    font-size: 1.6rem;
 }
 
 div.image-sidebar {
@@ -23,26 +25,25 @@ div.image-sidebar {
 }
 
 div.logo-band {
-    height: 33vh;
     position: relative;
-    top: 33vh;
+    top: 47%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 
 img.logo-icon {
     filter: invert(1);
-    width: 10vh;
+    width: 8rem;
     margin-right: 2vh;
 }
 
 .icon-credit {
     position: relative;
     left: 42%;
-    top: 63%;
+    top: 84%;
 }
 
 .form-section {
@@ -55,12 +56,13 @@ form[method=post] {
 }
 
 .info-section {
-    height: 33%;
+    height: 30%;
+    padding: 0% 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0% 7%;
     background-color: #f9fafb;
+    font-size: 2.4rem;
 }
 
 .info-section > :first-child {
@@ -68,8 +70,10 @@ form[method=post] {
 }
 
 .input-section {
-    height: 33%;
+    position: relative;
+    height: 40%;
     padding: 0% 7%;
+    box-shadow: 0px 5px 10px lightgrey;
 }
 
 .input-section > h1 {
@@ -87,13 +91,32 @@ form[method=post] {
 ul li {
     display: flex;
     flex-direction: column;
-    flex: 1 1 290px;
-    width: 30%;
-    padding-right: 10%;
+    flex: 1 1 35%;
+    font-size: 1.4rem;
+}
+
+li > input {
+    max-width: 75%;
+    font-size: 1.6rem;
+    padding: 2%;
 }
 
 .submit-section {
-    height: 33%;
+    height: 30%;
     padding: 0% 7%;
     background-color: #f9fafb;
+}
+
+button[type=submit] {
+    margin: 4% 0%;
+    width: 24%;
+    height: 15%;
+}
+
+p > a {
+    text-decoration: none;
+}
+
+p > a:visited {
+    color: green;
 }
