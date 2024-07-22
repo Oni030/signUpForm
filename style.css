@@ -1,3 +1,40 @@
+@font-face {
+    font-family: "UniteaRegular";
+    src: 
+        local("UniteaRegular"), 
+        url("fonts/unitea_sans/UniteaSans-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UniteaRegularItalic";
+    src: 
+        local("UniteaRegularItalic"), 
+        url("fonts/unitea_sans/UniteaSans-RegularItalic.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UniteaBold";
+    src: 
+        local("UniteaBold"), 
+        url("fonts/unitea_sans/UniteaSans-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UniteaBoldItalic";
+    src: 
+        local("UniteaBoldItalic"), 
+        url("fonts/unitea_sans/UniteaSans-BoldItalic.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html, body {
     width: 100vw;
     height: 100vh;
@@ -119,4 +156,28 @@ p > a {
 
 p > a:visited {
     color: green;
+}
+
+.unitea-reg {
+    font-family: "UniteaRegular";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.unitea-reg-italic {
+    font-family: "UniteaRegularItalic";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.unitea-bold {
+    font-family: "UniteaBold";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.unitea-bold-italic {
+    font-family: "UniteaBoldItalic";
+    font-weight: normal;
+    font-style: normal;
 }
