@@ -164,6 +164,10 @@ button[type=submit] {
     box-shadow: 4px 4px 2px var(--light-grey)
 }
 
+button[type=submit]:hover {
+    cursor: pointer;
+}
+
 p > a {
     text-decoration: none;
     color: var(--green);
