@@ -137,13 +137,15 @@ ul li {
     display: flex;
     flex-direction: column;
     flex: 1 1 35%;
-    font-size: 1.4rem;
 }
 
 li > input {
     max-width: 75%;
     font-size: 1.6rem;
     padding: 2%;
+    border: 1px solid var(--light-grey);
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 2px var(--light-grey);
 }
 
 .submit-section {
