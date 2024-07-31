@@ -148,7 +148,6 @@ li > input {
     padding: 2%;
     border: 1px solid var(--light-grey);
     border-radius: 0.3rem;
-    box-shadow: 2px 2px 2px var(--light-grey);
 }
 
 .submit-section {
@@ -204,4 +203,18 @@ p > a:visited {
     font-family: "UniteaBoldItalic";
     font-weight: normal;
     font-style: normal;
+}
+
+li > input:focus {
+    border: 1px solid var(--blue);
+    box-shadow: 5px 5px 4px var(--light-grey);
+}
+
+input[type='password']:invalid {
+    border: 1px solid var(--red);
+}
+
+li > input:valid {
+    border: 1px solid var(--green);
+    background-color: var(--light-green); 
 }
